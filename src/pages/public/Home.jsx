@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '../styles/cinematic.css';
+import '../../styles/cinematic.css';
 
 const Home = () => {
   return (
