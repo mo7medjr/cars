@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- Performance: preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Primary SEO -->
+    <title>المراكبي لتجارة وإيجار السيارات | بيع وإيجار سيارات في دمياط الجديدة</title>
+    <meta name="description" content="المراكبي لتجارة وإيجار السيارات — بيع وتأجير سيارات في دمياط الجديدة. سيارات حديثة للإيجار اليومي والشهري + سيارات مستعملة للبيع بأسعار تنافسية. احجز أو اشتري أونلاين الآن!" />
+    <meta name="keywords" content="تجارة سيارات, بيع سيارات, إيجار سيارات, المراكبي, سيارات دمياط, car sales egypt, car rental egypt, دمياط الجديدة, سيارات مستعملة, سيارات للبيع, سيارات للإيجار, حجز سيارة أونلاين" />
+    <meta name="author" content="المراكبي لتجارة وإيجار السيارات" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://elmarakby.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elmarakby.com/" />
+    <meta property="og:title" content="المراكبي لتجارة وإيجار السيارات | بيع وإيجار سيارات في دمياط" />
+    <meta property="og:description" content="سيارات للبيع والإيجار بأسعار تنافسية — سيارات حديثة ومستعملة مع تأمين شامل وعقود شفافة. المراكبي لتجارة وإيجار السيارات في دمياط الجديدة." />
+    <meta property="og:image" content="/logo.png" />
+    <meta property="og:locale" content="ar_EG" />
+    <meta property="og:site_name" content="المراكبي لتجارة وإيجار السيارات" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="المراكبي لتجارة وإيجار السيارات" />
+    <meta name="twitter:description" content="بيع وإيجار سيارات في دمياط الجديدة — حجز أونلاين سريع وآمن" />
+    <meta name="twitter:image" content="/logo.png" />
+
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "name": "المراكبي لتجارة وإيجار السيارات",
+      "alternateName": "Al-Marakby Cars",
+      "url": "https://elmarakby.com",
+      "logo": "https://elmarakby.com/logo.png",
+      "description": "بيع وإيجار سيارات في دمياط الجديدة. سيارات حديثة ومستعملة بأسعار تنافسية.",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "شارع الصحبجية بجوار مركز البُطة للعلاج الطبيعي",
+          "addressLocality": "دمياط الجديدة",
+          "addressCountry": "EG"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "مكتب المراكبي لتجارة وايجار السيارات",
+          "addressLocality": "دمياط الجديدة",
+          "addressCountry": "EG"
+        }
+      ],
+      "telephone": "+201097835116",
+      "priceRange": "$$",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "makesOffer": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "تأجير سيارات"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "بيع سيارات مستعملة"}}
+      ],
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#14143a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <style>
+      /* FOUC reduction — base background and font before app loads */
+      html, body { margin: 0; padding: 0; background: #f6f7fb; font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif; }
+      #root { min-height: 100vh; }
+      /* Initial loader to avoid blank screen */
+      .app-pre-loader {
+        position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+        background: #f6f7fb; z-index: 9999;
+      }
+      .app-pre-loader-spinner {
+        width: 44px; height: 44px;
+        border: 4px solid #e6e8f0;
+        border-top-color: #e61e5a;
+        border-radius: 50%;
+        animation: appPreSpin 0.9s linear infinite;
+      }
+      @keyframes appPreSpin { to { transform: rotate(360deg); } }
+      #root:not(:empty) ~ .app-pre-loader { display: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="app-pre-loader" aria-hidden="true"><div class="app-pre-loader-spinner"></div></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
